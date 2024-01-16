@@ -1,3 +1,5 @@
+# 14 - 01 -2024
+
 # 1. What are the two values of the Boolean data type? How do you
 # write them?
 
@@ -55,6 +57,8 @@ not ((5 > 4) or (3 == 5))             # False
 assign = 'giving a Value'
 
 'Comparing' == 'comparing'
+
+# 15 - 01 -2024
 
 # 7. Explain what a condition is and where you would use one.
 # age rescrition for voiting
