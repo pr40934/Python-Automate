@@ -47,4 +47,66 @@ createFunc() # Calling function to Excuite
 
 # they are become empty
 
-# 7. 
+# 19 - 01 - 2024
+
+# 7. What is a return value? Can a return value be part of an expression?
+
+# return value is function return any data is called return value 
+#  yes return value can be particpate in any expression and condition.
+
+# 8. If a function does not have a return statement, what is the return value
+# of a call to that function?
+
+# that doesn't return any thing it just excuites
+
+# 9. How can you force a variable in a function to refer to the global variable?
+
+# Global variableName
+
+global_variable = 10
+
+def use_global_variable():
+    global global_variable
+    global_variable += 5
+    print("Inside the function:", global_variable)
+
+use_global_variable()
+
+print("Outside the function:", global_variable)
+
+# 10. What is the data type of None?
+
+result = None
+print(type(result))  # Output: <class 'NoneType'>
+
+# 11. What does the import areallyourpetsnamederic statement do?
+
+# use to import libary's to you code
+
+# 12. If you had a function named bacon() in a module named spam, how
+# would you call it after importing spam?
+
+# first  Way
+# import spam as sp
+# sp.bacon()
+
+# Second Way 
+# import spam as sp
+# sp.bacon()
+
+# 13. How can you prevent a program from crashing when it gets an error?
+
+def errorHandling():
+    try:
+        my_list = [1, 2, 3]
+        print(my_list[3])
+
+    except Exception:               
+        print('error Handling Function')
+
+errorHandling()
+
+# 14. What goes in the try clause? What goes in the except clause?
+
+# try clause  try to run code in a try clause block in any case it get any error it run except code block
+ 
