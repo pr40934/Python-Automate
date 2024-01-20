@@ -110,3 +110,4 @@ errorHandling()
 
 # try clause  try to run code in a try clause block in any case it get any error it run except code block
  
+ # 20 - 01 - 2024
